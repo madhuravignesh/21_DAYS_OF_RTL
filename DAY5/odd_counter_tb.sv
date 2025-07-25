@@ -7,6 +7,8 @@ module odd_counter_tb ();
     $dumpfile ("dump.vcd");
     $dumpvars (0,odd_counter_tb);
   end
+
+  odd_counter count1(.*);
   
   initial begin
     clk = 1'b0;
